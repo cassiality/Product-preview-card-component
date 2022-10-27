@@ -1,18 +1,25 @@
 body{
     background-color: hsl(30, 38%, 92%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .conteudo{
-    margin: 130px 500px;
-    width: 515px;
-    height: 397px;
+    margin: 2rem 5rem;
+    width: 35rem;
+    height: 26rem;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     border-radius: 8px;
 }
 
 .imagem .desktop{
-    max-width: 265px;
+    justify-content: right;
+    max-width: 277px;
     border-radius: 8px 0px 0px 8px;
 }
 
@@ -28,24 +35,25 @@ body{
 }
 
 .texto{
-    padding: 18px 25px;
+    padding: 25px 30px;
 }
 
 .descricao{
     font-family: "Montserrat";
-    font-size: 12px;
+    font-size: 13.5px;
     line-height: 1.5;
     color: hsl(228, 12%, 48%);
 }
 
-.colorpreco, .titulo{
+.colorpreco, h1{
     font-family: "Fraunces 9pt Black";
-    font-size: 26px;
+    font-size: 30px;
+    line-height: 1;
 }
 
-.titulo{
+.h1{
     color: hsl(212, 21%, 14%);
-    line-height: 1;
+    line-height: 0.1;
 }
 
 .colorpreco{
@@ -54,7 +62,7 @@ body{
 
 .preco{
     display: grid;
-    grid-template-columns: 100px 85px;
+    grid-template-columns: 6rem 8rem;
     text-align: center;
     align-items: center;
 }
@@ -68,7 +76,7 @@ body{
 }
 
 button{
-    padding: 9px 50px;
+    padding: 0.5rem 4rem;
     border-radius: 5px;
     background-color: hsl(158, 36%, 37%);
     color:hsl(0, 0%, 100%);
